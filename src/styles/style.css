@@ -14,7 +14,7 @@ nav{
   font-family: 'Times New Roman', Times, serif;
 }
 span{
-  color: brown;
+  color: #0b07e6;
 }
  ul{
   display: inline-flex;
@@ -37,7 +37,9 @@ nav ul li a{
 }
 .loginbox{
   display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to right top, #bbbdc4, #b7c5d1, #afced9, #a9d8d9, #ace0d1, #a9e2d3, hsl(166, 53%, 77%), #a3e6d8, #9be2ea, #a3daf5, #b7d1f6, #cdc8ed);
+    /* opacity: 10%; */
     width: 80vw;
     height: 70vh;
     margin-left: 10vw;
@@ -46,41 +48,41 @@ nav ul li a{
 }
 .loginform{
   width: 50vw;
-  height: 65vh;
-  background-color: rgb(32, 255, 173);
-  border-radius: 60px;
-  margin: 4vh 2vw 0vh -3vw;
-  translate: 4vw 0vh;
+    height: 65vh;
+    /* background-color: rgb(32, 255, 173); */
+    /* border-radius: 60px; */
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 1vh 1vw 1vh 1vw;
+    translate: 0vw 2vh;
+    background-color: #0c09b8;
+    /* opacity: 10%; */
+    background-image: linear-gradient(to right top, #307df1, #00aaff, #00ccef, #00e5b2, #8af670);
 }
+
 #avatar{
   height: 15vh;
     width: 15vw;
     translate: 6vw 2vh
 }
 #landingimage{
-    position: relative;
-    padding: 5px 30px 7px 10px;
-    height: 65vh;
-    width: 50vw;
-    translate: 2vw 2.5vh;
-    margin-right: 1vw;
-    margin-left: -1vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    border-radius: 60px;
+  position: relative;
+  /* padding: 5px 30px 7px 10px; */
+  height: 65vh;
+  width: 50vw;
+  translate: 1vw 2vh;
+  /* margin-right: 1vw; */
+  margin-left: 1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  /* border-radius: 60px; */
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 
 body{
-  background-image: linear-gradient(
-    120deg,
-    #7aacb3,
-    #4c6e81,
-    #cf8da7,
-    #aa5377,
-    #3b3759
-  );
-  background-attachment: fixed;
+  background-image: linear-gradient(to left bottom, #e77500, #e24731, #cd134c, #a90062, #77006f, #632c89, #45439c, #0055a8, #0081cc, #00ace3, #00d6ef, #5efff5);  background-attachment: fixed;
   overflow: hidden;}
 
 h1{
@@ -99,7 +101,7 @@ input{
   width: 25vw;
   position: relative;
 }
-button {
+ #login {
   translate: 0vw 3vh;
     position: relative;
     align-items: center;
@@ -111,7 +113,7 @@ button {
     background-color: #050580;
     font-size: 22px;
 }
-button #signin{
+ #signin{
   text-decoration: none;
   color: white;
   font-size: 15px;
