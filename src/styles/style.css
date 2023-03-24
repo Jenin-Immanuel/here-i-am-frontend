@@ -5,8 +5,8 @@ nav{
     text-align: center;
     position: relative;
     min-height: 8vh;
-    margin: auto;
-    padding: auto;
+    padding: 30px 8.33%;
+    
 }
 
 .logo{
@@ -38,8 +38,9 @@ nav ul li a{
 .loginbox{
   display: flex;
     /* background-color: aquamarine; */
-    background-image: linear-gradient(to right top, #bbbdc4, #b7c5d1, #afced9, #a9d8d9, #ace0d1, #a9e2d3, hsl(166, 53%, 77%), #a3e6d8, #9be2ea, #a3daf5, #b7d1f6, #cdc8ed);
+    /* background-image: linear-gradient(to right top, #bbbdc4, #b7c5d1, #afced9, #a9d8d9, #ace0d1, #a9e2d3, hsl(166, 53%, 77%), #a3e6d8, #9be2ea, #a3daf5, #b7d1f6, #cdc8ed); */
     /* opacity: 10%; */
+    background-image: linear-gradient(to right bottom, #8d61f6, #cf52d4, #f150af, #ff5e8f, #ff7576, #ff8769, #fe9a60, #f7ad5c, #f3c058, #ead559, #dce962, #c7fd75);
     width: 80vw;
     height: 70vh;
     margin-left: 10vw;
@@ -57,13 +58,20 @@ nav ul li a{
     translate: 0vw 2vh;
     background-color: #0c09b8;
     /* opacity: 10%; */
-    background-image: linear-gradient(to right top, #307df1, #00aaff, #00ccef, #00e5b2, #8af670);
-}
+    /* background-image: linear-gradient(to right top, #307df1, #00aaff, #00ccef, #00e5b2, #8af670); */
+    /* background-image: linear-gradient(to right bottom, #8d61f6, #cf52d4, #f150af, #ff5e8f, #ff7576, #ff8769, #fe9a60, #f7ad5c, #f3c058, #ead559, #dce962, #c7fd75); */
+    /* background-image: linear-gradient(to right bottom, #f13805, #f10050, #d30085, #962bae, #1c49bf); */
+    background-image: linear-gradient(to right bottom, #6805f1, #655eff, #798dff, #a1b6fb, #d4dcee);
+  
+  
+  
+  
+  }
 
 #avatar{
-  height: 15vh;
-    width: 15vw;
-    translate: 6vw 2vh
+  height: 10vh;
+    width: 10vw;
+    translate: 8vw 2vh;
 }
 #landingimage{
   position: relative;
@@ -82,8 +90,11 @@ nav ul li a{
 
 
 body{
-  background-image: linear-gradient(to left bottom, #e77500, #e24731, #cd134c, #a90062, #77006f, #632c89, #45439c, #0055a8, #0081cc, #00ace3, #00d6ef, #5efff5);  background-attachment: fixed;
-  overflow: hidden;}
+  /* background-image: linear-gradient(to left bottom, #e77500, #e24731, #cd134c, #a90062, #77006f, #632c89, #45439c, #0055a8, #0081cc, #00ace3, #00d6ef, #5efff5);  */
+  background-image: linear-gradient(to right bottom, #652af1, #be00c4, #e70094, #f60067, #f50040, #f3422c, #ec6317, #e27d00, #de9a00, #d2b700, #bed300, #9fee28);
+  background-attachment: fixed;
+  overflow: hidden;
+}
 
 h1{
   position: relative;
@@ -100,6 +111,7 @@ input{
   height: 5vh;
   width: 25vw;
   position: relative;
+  translate: 1vw ;
 }
  #login {
   translate: 0vw 3vh;
@@ -111,10 +123,28 @@ input{
     border-radius: 30px;
     color: white;
     background-color: #050580;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 2vw;
 }
- #signin{
+ #signin a{
   text-decoration: none;
-  color: white;
-  font-size: 15px;
+  color: rgb(247, 241, 241);
+  font-size: 1vw;
+}
+button #signin{
+height: 2vh;
+width: 4vw;
+}
+
+.hyperlink{
+  translate: 0vw 6vh;
+    position: relative;
+    align-items: center;
+    margin-left: 0.5vw;
+    width: 25vw;
+    height: 7vh;
+    border-radius: 30px;
+    color: white;
+    background-color: #050580;
+    /* font-size: 22px; */
 }
