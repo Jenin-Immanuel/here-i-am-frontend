@@ -53,9 +53,13 @@
 
 
 body{
-  background-image: linear-gradient(to right top, #d16ba5, #d27eaf, #d291b9, #d2a2c2, #d3b3c9, #cbb0c4, #c3aebf, #bcabba, #a995aa, #96809b, #816b8d, #6c5880);
+  /* background-image: linear-gradient(to right top, #d16ba5, #d27eaf, #d291b9, #d2a2c2, #d3b3c9, #cbb0c4, #c3aebf, #bcabba, #a995aa, #96809b, #816b8d, #6c5880); */
   background-attachment: fixed;
   overflow: hidden;
+  /* background-image: linear-gradient(to right top, #feeafb, #f8cbec, #f3aada, #ee88c4, #e963ac, #e85ba6, #e7539f, #e64b99, #e964a6, #eb7bb2, #ed8fbe, #eea3c9); */
+  /* background-image: linear-gradient(to right top, #feeafb, #eacde3, #d6b1cb, #c495b3, #b1799b, #b07899, #ae7897, #ad7795, #bc92a9, #caacbe, #d9c7d2, #e8e3e6); */
+  /* background-image: linear-gradient(to right top, #feeafb, #fccdf0, #fcaee0, #fd8dcc, #fd67b5, #ff5aa2, #ff4e8e, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361); */
+  background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361);
 }
 
 h1{
@@ -68,24 +72,20 @@ label{
   font-size: 2vw;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
+  margin-left: 1.5vw;
 }
-input{
-  border-radius: 30px;
-  height: 5vh;
-  width: 25vw;
-  position: relative;
-  translate: 1vw ;
-}
+/* input{
+} */
  #login {
   translate: 0vw 3vh;
     position: relative;
     align-items: center;
-    margin-left: 0.5vw;
+    margin-left: 2.5vw;
     width: 25vw;
     height: 7vh;
     border-radius: 30px;
     color: white;
-    background-color: #050580;
+    background-color: #19ec22;
     /* font-size: 22px; */
     font-size: 2vw;
 }
@@ -100,15 +100,15 @@ width: 4vw;
 }
 
 .signinlink{
-  translate: 0vw 6vh;
+    translate: 2vw 8vh;
     position: relative;
     align-items: center;
     margin-left: 0.5vw;
     width: 25vw;
     height: 7vh;
-    border-radius: 1.875rem;
+    border-radius: 30px;
     color: white;
-    background-color: #050580;
+    background-color: #19ec22;
     /* font-size: 22px; */
 }
 /* editted */
@@ -170,7 +170,8 @@ a {
 .nav-link{
   font-size: 1.6rem;
   font-weight: 400;
-  color: #475569;
+  color: #fafdfa;
+  
 }
 
 .nav-link:hover{
@@ -191,7 +192,7 @@ a {
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      background-color: #fff;
+      background-color: #e59e9e;
       /* width: 100%; */
       width: 50%;
       border-radius: 10px;
@@ -202,8 +203,12 @@ a {
   }
 
   .nav-menu.active {
-      left: 40vw;
-      
+      /* left: 40vw; */
+      width: 100vw;
+      left:0vw;
+      background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361);
+
+
   }
   .loginbox.active{
     opacity: 90%;
@@ -236,13 +241,22 @@ a {
   color: #d7d7df;
 }
 #avatar {
-  height: 10vh;
-  width: 10vw;
-  translate: 6.5rem 0rem;
-  padding: 1rem;
+    height: 10vh;
+    width: 10vw;
+    translate: 10.5vw 0vh;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
 }
-
-
+.place-holder{
+  border-radius: 30px;
+  height: 5vh;
+  width: 25vw;
+  position: relative;
+  translate: 1.5vw ;
+  color: #19ec22;
+  font-size: 1.5vw;
+}
 
 
 
