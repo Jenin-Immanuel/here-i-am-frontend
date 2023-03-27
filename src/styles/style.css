@@ -1,40 +1,45 @@
-nav{
+
+
+/* nav{
   display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     position: relative;
-    min-height: 8vh;
-    padding: 30px 8.33%;
+    /* min-height: 8vh; */
+    /* padding: 30px 8.33%; */
+    /* align-items: center; */
+    /* padding: 1rem 1.5rem; */
     
-}
+/* }  */
 
-.logo{
+
+/* .logo{
   font-size: 28px;
   font-family: 'Times New Roman', Times, serif;
-}
-span{
+} */
+/* span{
   color: #0b07e6;
-}
- ul{
+} */
+ /* .nav-menu{
   display: inline-flex;
-  justify-content: space-around;
-  width: 30%;
-}
-ul li{
-  /* width: 20px; */
+  justify-content: space-between;
+  /* width: 30%; */
+/* } */
+/* ul li{
+  
   position: relative;
   list-style-type: none;
   align-items: center;  
   padding: 1rem;  
-}
-nav ul li a{
+} */
+/* nav ul li a{
   text-decoration: none;
   color:black;
   font-weight: bold;
   font-size: 14px;
   padding: 14px 16px;
-}
+} */
 .loginbox{
   display: flex;
     /* background-color: aquamarine; */
@@ -46,6 +51,9 @@ nav ul li a{
     margin-left: 10vw;
     margin-right: 10vw;
     border-radius: 60px;
+    /* margin-top: 24vh */
+    
+    
 }
 .loginform{
   width: 50vw;
@@ -62,17 +70,17 @@ nav ul li a{
     /* background-image: linear-gradient(to right bottom, #8d61f6, #cf52d4, #f150af, #ff5e8f, #ff7576, #ff8769, #fe9a60, #f7ad5c, #f3c058, #ead559, #dce962, #c7fd75); */
     /* background-image: linear-gradient(to right bottom, #f13805, #f10050, #d30085, #962bae, #1c49bf); */
     background-image: linear-gradient(to right bottom, #6805f1, #655eff, #798dff, #a1b6fb, #d4dcee);
-  
+    
   
   
   
   }
 
-#avatar{
+/* #avatar{
   height: 10vh;
     width: 10vw;
     translate: 8vw 2vh;
-}
+} */
 #landingimage{
   position: relative;
   /* padding: 5px 30px 7px 10px; */
@@ -148,3 +156,143 @@ width: 4vw;
     background-color: #050580;
     /* font-size: 22px; */
 }
+/* editted */
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header{
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.hamburger {
+  display:none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover{
+  color: #482ff7;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #482ff7;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+      position: fixed;
+      /* left: -100%; */
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      /* width: 100%; */
+      width: 50%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+      z-index: 1;
+  }
+
+  .nav-menu.active {
+      left: 40vw;
+      
+  }
+  .loginbox.active{
+    opacity: 90%;
+    margin-top: 24vh
+
+    /* display: none; */
+  }
+
+  .nav-item {
+      margin: 2.5rem 0;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+}
+.logo-text{
+  color: #0b07e6;
+}
+#avatar {
+  height: 10vh;
+  width: 10vw;
+  translate: 6.5rem 0rem;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
+/* 370=bp */
+/* sources */
+/* https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci */
