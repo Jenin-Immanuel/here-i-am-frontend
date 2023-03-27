@@ -1,45 +1,3 @@
-
-
-/* nav{
-  display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    position: relative;
-    /* min-height: 8vh; */
-    /* padding: 30px 8.33%; */
-    /* align-items: center; */
-    /* padding: 1rem 1.5rem; */
-    
-/* }  */
-
-
-/* .logo{
-  font-size: 28px;
-  font-family: 'Times New Roman', Times, serif;
-} */
-/* span{
-  color: #0b07e6;
-} */
- /* .nav-menu{
-  display: inline-flex;
-  justify-content: space-between;
-  /* width: 30%; */
-/* } */
-/* ul li{
-  
-  position: relative;
-  list-style-type: none;
-  align-items: center;  
-  padding: 1rem;  
-} */
-/* nav ul li a{
-  text-decoration: none;
-  color:black;
-  font-weight: bold;
-  font-size: 14px;
-  padding: 14px 16px;
-} */
 .loginbox{
   display: flex;
     /* background-color: aquamarine; */
@@ -51,7 +9,7 @@
     margin-left: 10vw;
     margin-right: 10vw;
     border-radius: 60px;
-    /* margin-top: 24vh */
+    margin-top: 10vh
     
     
 }
@@ -76,11 +34,7 @@
   
   }
 
-/* #avatar{
-  height: 10vh;
-    width: 10vw;
-    translate: 8vw 2vh;
-} */
+
 #landingimage{
   position: relative;
   /* padding: 5px 30px 7px 10px; */
@@ -106,11 +60,12 @@ body{
 
 h1{
   position: relative;
-  translate: 30vw 30 vh;
-  text-align: center;
+    
+    text-align: center;
+    font-size: 4vw;
 }
 label{
-  font-size: 18px;
+  font-size: 2vw;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -144,14 +99,14 @@ height: 2vh;
 width: 4vw;
 }
 
-.hyperlink{
+.signinlink{
   translate: 0vw 6vh;
     position: relative;
     align-items: center;
     margin-left: 0.5vw;
     width: 25vw;
     height: 7vh;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     color: white;
     background-color: #050580;
     /* font-size: 22px; */
@@ -174,6 +129,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #101010;
 }
 
 .header{
@@ -223,9 +179,9 @@ a {
 
 .nav-logo {
   font-size: 2.1rem;
-  font-weight: 500;
-  color: #482ff7;
-  text-decoration: none;
+    font-weight: 500;
+    color: #f8f2f2;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -277,7 +233,7 @@ a {
 
 }
 .logo-text{
-  color: #0b07e6;
+  color: #d7d7df;
 }
 #avatar {
   height: 10vh;
