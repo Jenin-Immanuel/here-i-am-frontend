@@ -2,8 +2,9 @@
   display: flex;
     /* background-color: aquamarine; */
     /* background-image: linear-gradient(to right top, #bbbdc4, #b7c5d1, #afced9, #a9d8d9, #ace0d1, #a9e2d3, hsl(166, 53%, 77%), #a3e6d8, #9be2ea, #a3daf5, #b7d1f6, #cdc8ed); */
-    /* opacity: 10%; */
+    /* opacity: 10%; 
     background-image: linear-gradient(to right bottom, #8d61f6, #cf52d4, #f150af, #ff5e8f, #ff7576, #ff8769, #fe9a60, #f7ad5c, #f3c058, #ead559, #dce962, #c7fd75);
+    */
     width: 80vw;
     height: 70vh;
     margin-left: 10vw;
@@ -22,12 +23,12 @@
     border-bottom-right-radius: 50px;
     margin: 1vh 1vw 1vh 1vw;
     translate: 0vw 2vh;
-    background-color: #0c09b8;
+    background-color: #cbc0c2;
     /* opacity: 10%; */
     /* background-image: linear-gradient(to right top, #307df1, #00aaff, #00ccef, #00e5b2, #8af670); */
     /* background-image: linear-gradient(to right bottom, #8d61f6, #cf52d4, #f150af, #ff5e8f, #ff7576, #ff8769, #fe9a60, #f7ad5c, #f3c058, #ead559, #dce962, #c7fd75); */
     /* background-image: linear-gradient(to right bottom, #f13805, #f10050, #d30085, #962bae, #1c49bf); */
-    background-image: linear-gradient(to right bottom, #6805f1, #655eff, #798dff, #a1b6fb, #d4dcee);
+     
     
   
   
@@ -39,7 +40,7 @@
   position: relative;
   /* padding: 5px 30px 7px 10px; */
   height: 65vh;
-  width: 50vw;
+  width: 45vw;
   translate: 1vw 2vh;
   /* margin-right: 1vw; */
   margin-left: 1vw;
@@ -52,8 +53,7 @@
 
 
 body{
-  /* background-image: linear-gradient(to left bottom, #e77500, #e24731, #cd134c, #a90062, #77006f, #632c89, #45439c, #0055a8, #0081cc, #00ace3, #00d6ef, #5efff5);  */
-  background-image: linear-gradient(to right bottom, #652af1, #be00c4, #e70094, #f60067, #f50040, #f3422c, #ec6317, #e27d00, #de9a00, #d2b700, #bed300, #9fee28);
+  background-image: linear-gradient(to right top, #d16ba5, #d27eaf, #d291b9, #d2a2c2, #d3b3c9, #cbb0c4, #c3aebf, #bcabba, #a995aa, #96809b, #816b8d, #6c5880);
   background-attachment: fixed;
   overflow: hidden;
 }
