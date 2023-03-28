@@ -44,31 +44,20 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 #landingimage{
   position: relative;
-  /* padding: 5px 30px 7px 10px; */
   height: 65vh;
   width: 30vw;
   translate: 1vw 2vh;
-  /* margin-right: 1vw; */
   margin-left: 1vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  /* border-radius: 60px; */
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
 
 
 body{
-  /* background-image: linear-gradient(to right top, #d16ba5, #d27eaf, #d291b9, #d2a2c2, #d3b3c9, #cbb0c4, #c3aebf, #bcabba, #a995aa, #96809b, #816b8d, #6c5880); */
   background-attachment: fixed;
   overflow: hidden;
-  /* background-size: 100% 100%; */
-  /* background-image: linear-gradient(to right top, #feeafb, #f8cbec, #f3aada, #ee88c4, #e963ac, #e85ba6, #e7539f, #e64b99, #e964a6, #eb7bb2, #ed8fbe, #eea3c9); */
-  /* background-image: linear-gradient(to right top, #feeafb, #eacde3, #d6b1cb, #c495b3, #b1799b, #b07899, #ae7897, #ad7795, #bc92a9, #caacbe, #d9c7d2, #e8e3e6); */
-  /* background-image: linear-gradient(to right top, #feeafb, #fccdf0, #fcaee0, #fd8dcc, #fd67b5, #ff5aa2, #ff4e8e, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361); */
-  /* background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361); */
-  /* background: rgb(9,9,121); */
-  /*background: linear-gradient(120deg, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);*/
   background-image: linear-gradient(to right bottom, #270e93, #4350b6, #6e86d2, #a7bce6, #ecf1f8);
 }
 
