@@ -189,10 +189,11 @@ a {
 }
 
 .nav-logo {
-  font-size: 2.1rem;
+  font-size: 4rem;
     font-weight: 500;
     color: #f8f2f2;
     text-decoration: none;
+    font-family: 'Great Vibes', cursive;
 }
 
 @media only screen and (max-width: 768px) {
