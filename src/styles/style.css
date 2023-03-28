@@ -181,11 +181,13 @@ a {
   font-size: 1.6rem;
   font-weight: 400;
   color: #fafdfa;
+  font-family: 'Cinzel Decorative', cursive;
   
 }
 
 .nav-link:hover{
   color: #482ff7;
+  background-color: #E2E8F0;
 }
 
 .nav-logo {
