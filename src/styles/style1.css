@@ -59,7 +59,7 @@ box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
     flex-direction: column;
     padding: 1rem 0 0 0 ;
     font-size: medium;
-    width: 35rem;
+    /* width: 35rem; */
     margin-left: 2rem;
 }
 

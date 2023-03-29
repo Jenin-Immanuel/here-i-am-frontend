@@ -82,13 +82,13 @@ label{
  #login {
   translate: 0vw 3vh;
     position: relative;
-    align-items: center;
-    margin-left: 1.7vw;
-    width: 25vw;
+    /* align-items: center; */
+    margin-left: 10vw;
+    width: 10vw;
     height: 7vh;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     color: white;
-    background-color: rgb(18 18 66);
+    background-color: rgb(18, 18, 66);
     /* font-size: 22px; */
     font-size: 2vw;
 }
@@ -103,14 +103,14 @@ width: 4vw;
 }
 
 .signinlink{
-  translate: 1.7vw 5vh;
+  translate: 7vw 5vh;
   position: relative;
   align-items: center;
-  width: 25vw;
-  height: 7vh;
-  border-radius: 30px;
+  width: 16vw;
+  height: 4vh;
+  /* border-radius: 30px; */
   color: white;
-  background-color: rgb(18, 18, 66);
+  background-color: rgba(18, 18, 66);
 }
 /* editted */
 html {
@@ -198,7 +198,7 @@ a {
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      background-color: #e59e9e;
+      /* background-color: #e59e9e; */
       /* width: 100%; */
       width: 50%;
       border-radius: 10px;
@@ -262,14 +262,20 @@ a {
     position: relative;
 }
 .place-holder{
-  border-radius: 30px;
+  /* border-radius: 30px; */
   height: 5vh;
   width: 25vw;
   position: relative;
   translate: 1.5vw ;
-  color: #19ec22;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+  color: white;
   font-size: 1.5vw;
   margin: 10px 1px 10px 1px;
+  padding-left: 1rem;
+  outline: none;
+  
 }
 
 
