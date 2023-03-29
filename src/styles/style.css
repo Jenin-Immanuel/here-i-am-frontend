@@ -190,6 +190,8 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+
+
   .nav-menu {
       position: fixed;
       /* left: -100%; */
@@ -210,8 +212,11 @@ a {
       /* left: 40vw; */
       width: 100vw;
       left:0vw;
-      background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361);
-      
+      /* background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361); */
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
 
   }
   .loginbox.active{
@@ -219,6 +224,10 @@ a {
     margin-top: 24vh;
     
     /* display: none; */
+  }
+
+  #landingimage{
+    display: none;
   }
 
   .nav-item {
