@@ -6,51 +6,77 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="/js/main.js"></script>
-    <title>Vite App</title>    
+    <script src="/js/login.js" type="module" defer></script>
+    <title>Vite App</title>
   </head>
   <body>
     <header class="header">
-    <nav class="navbar">
+      <nav class="navbar">
         <!-- <h2 class="logo">Here-<span>I-Am</span></h2> -->
-        <a href="#" class="nav-logo">Here-<span class="logo-text">I-Am</span></a>
+        <a href="#" class="nav-logo"
+          >Here-<span class="logo-text">I-Am</span></a
+        >
         <ul class="nav-menu">
-            <li class="nav-item"><a href="home" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="signup.html" class="nav-link">Signup</a></li>
-            <li class="nav-item"><a href="About-us" class="nav-link">About-us</a></li>
-            <li class="nav-item"><a href="Help" class="nav-link">Help</a></li>    
+          <li class="nav-item"><a href="home" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="signup.html" class="nav-link">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a href="About-us" class="nav-link">About-us</a>
+          </li>
+          <li class="nav-item"><a href="Help" class="nav-link">Help</a></li>
         </ul>
         <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>      
-    </nav>
-</header>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
     <div class="loginbox">
-        <div class="loginimage">
-            <img src="chatbot-virtual-assistant-abstract-concept-vector-illustration_107173-25603.jpg" alt="image of chatbot" id="landingimage">
+      <div class="loginimage">
+        <img
+          src="chatbot-virtual-assistant-abstract-concept-vector-illustration_107173-25603.jpg"
+          alt="image of chatbot"
+          id="landingimage"
+        />
+      </div>
+      <div class="loginform">
+        <div class="loginavatar">
+          <!-- <img src="avatar.png" alt="login avatar" id="avatar"> -->
+          <h1>Login</h1>
         </div>
-        <div class="loginform">
-            <div class="loginavatar">
-                <!-- <img src="avatar.png" alt="login avatar" id="avatar"> -->
-                <h1>Login</h1>
-            </div>
-            <form method="post" action="#">
-                <label for="username">Username :</label>
-                <br>
-                <input type="text" placeholder="  Enter the Username" required class="place-holder">
-                <br>
-                <label for="password">Password :</label>
-                <br>
-                <input type="password" placeholder="  Enter the password" required class="place-holder">
-                <br>
-                <button type="submit" id="login">Login</button>
-            </form>
-            <button   class="signinlink" id="signin"  onclick = "window.location.href='signup.html';"> <a href="signup.html" > Dont have an account?Sign up</a></button>
-            
-
-        </div>
-        
+        <form action="" data-login-form>
+          <label for="username">Email :</label>
+          <br />
+          <input
+            type="text"
+            placeholder="  Enter the Email"
+            name="email"
+            required
+            class="place-holder"
+          />
+          <br />
+          <label for="password">Password :</label>
+          <br />
+          <input
+            type="password"
+            placeholder="  Enter the password"
+            required
+            class="place-holder"
+            name="password"
+          />
+          <br />
+          <button type="submit" id="login">Login</button>
+        </form>
+        <button
+          class="signinlink"
+          id="signin"
+          onclick="window.location.href='signup.html';"
+        >
+          <a href="signup.html"> Dont have an account? Sign up</a>
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
