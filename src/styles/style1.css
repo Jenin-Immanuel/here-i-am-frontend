@@ -5,43 +5,40 @@
 
 .Loginbox{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 68rem;
-    height: 32rem;
-    /* border: 0.2rem solid #552f1b ; */
-    padding : 2rem;
-    /* background-color:rgb(255,255,255,0.25);
-    border-radius: 3rem;
-    backdrop-filter: saturate(80%) blur(1rem); */
+    top: 20%;
+    left: 10%;
+    width: 80vw;
+    height: 70vh;
+    /* border: 0.2rem solid #552f1b; */
+    padding: 2rem;
     background: rgba(255, 255, 255, 0.2);
-border-radius: 3rem;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    right: 5%
 }
 
 
 .Forms{
     display: flex;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-20%,-50%);
-    width: 40.2rem;
-    height: 31rem;
-    /* border: 0.2rem solid #552f1b ; */
-    padding : 2rem;
+    top: 7%;
+    left: 45%;
+    /* transform: translate(-20%,-50%); */
+    width: 42vw;
+    height: 60vh;
+    /* border: 0.2rem solid #552f1b; */
+    padding: 15px;
     flex-direction: column;
-    background-color:  rgba(255,255,255,0.15);
+    background-color: rgba(255,255,255,0.15);
     backdrop-filter: saturate(150%) blur(1rem);
     border-radius: 3rem;
     /* border: 0.2rem solid #8c6aa0; */
     -webkit-box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
--moz-box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
-box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
+    -moz-box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
+    box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
 }
 
 .Forms h1{
@@ -71,7 +68,7 @@ box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
     background-color: transparent;
     outline: none;
 }
-.nav{
+/* .nav{
     display: flex;
     flex-basis: 1;
     height: 3rem;
@@ -91,15 +88,15 @@ box-shadow: 0px 0px 30px 20px rgba(255,61,174,0.2);
 
 .nav h1{
     /* height: 5rem; */
-    margin: 1rem;
-    width: 12rem;
-}
+    /* margin: 1rem;
+    width: 12rem; */
+/* }  */
 
 .signup label{
     padding-top: 0.3rem;
 }
 
-a{
+/* a{
     color: white;
     text-decoration: none;
 }
@@ -112,40 +109,39 @@ a{
     align-items: center;
     justify-content: right;
     /* border:1px solid white; */
-    height: 3rem;
+    /* height: 3rem;
     width: 100%;
     gap: 2rem;
     margin-left: 0;
     padding: 0;
-}
+} */
 
-.nav ul li{
+/* .nav ul li{
     /* display: flex; */
-    padding: 0.8rem 1rem 0.8rem 1rem;
+    /* padding: 0.8rem 1rem 0.8rem 1rem;
     /* border: 1px solid white; */
-    font-size: large;
+    /* font-size: large; */
     /* background-color: #d16ba5; */
-    transition: 0.3s;
-}
+    /* transition: 0.3s; */ 
+/* }  */
 
 .progress{
     display: flex;
     position: absolute;
     flex-basis: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-136%,-50%);
-    width: 22rem;
-    height: 31rem;
-    padding : 2rem;
+    top: 7%;
+    left: 4%;
+    /* transform: translate(-136%,-50%); */
+    width: 32vw;
+    height: 60vh;
+    /* padding: 2rem; */
     flex-direction: column;
-    background-color:  rgba(255,255,255,0.15);
+    background-color: rgba(255,255,255,0.15);
     backdrop-filter: saturate(150%) blur(1rem);
     border-radius: 3rem;
     -webkit-box-shadow: -10px 0px 20px 9px rgba(120,221,230,0.3);
--moz-box-shadow: -10px 0px 20px 9px rgba(120,221,230,0.3);
-box-shadow: -10px 0px 20px 9px rgba(120,221,230,0.3);
-}
+    -moz-box-shadow: -10px 0px 20px 9px rgba(120,221,230,0.3);
+    box-shadow: -10px 0px 20px 9px rgba(120,221,230,0.3);}
 
 body{
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8da1e6, #80a7e9, #73adeb, #63b0ed, #50b4ed, #39b7ed, #12baeb);
@@ -179,3 +175,136 @@ body{
     margin-left: 32rem;
     margin-top: 1rem;
 }
+
+/* editted */
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #101010;
+  }
+  
+  .header{
+    border-bottom: 1px solid #E2E8F0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+  
+  .hamburger {
+    display:none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 5rem;
+  }
+  
+  .nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fafdfa;
+    font-family: 'Cinzel Decorative', cursive;
+    
+  }
+  
+  .nav-link:hover{
+    color: #482ff7;
+    background-color: #E2E8F0;
+  }
+  
+  .nav-logo {
+    font-size: 4rem;
+      font-weight: 500;
+      color: #f8f2f2;
+      text-decoration: none;
+      font-family: 'Great Vibes', cursive;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        /* left: -100%; */
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #e59e9e;
+        /* width: 100%; */
+        width: 50%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 1;
+    }
+  
+    .nav-menu.active {
+        /* left: 40vw; */
+        width: 100vw;
+        left:0vw;
+        background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361);
+        
+  
+    }
+    .loginbox.active{
+      opacity: 90%;
+      margin-top: 24vh;
+      
+      /* display: none; */
+    }
+  
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  }
+  .logo-text{
+    color: #d7d7df;
+  }

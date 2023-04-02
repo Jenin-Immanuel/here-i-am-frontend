@@ -5,16 +5,16 @@ const loginbox = document.querySelector(".loginbox");
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    loginbox.classList.toggle("active");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  loginbox.classList.toggle("active");
 }
 const navLink = document.querySelectorAll(".nav-link");
 
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-    loginbox.classList.remove("active");
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+  loginbox.classList.remove("active");
 }
