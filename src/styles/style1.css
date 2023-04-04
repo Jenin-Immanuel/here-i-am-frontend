@@ -36,9 +36,9 @@
     backdrop-filter: saturate(150%) blur(1rem);
     border-radius: 3rem;
     /* border: 0.2rem solid #8c6aa0; */
-    -webkit-box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
+    /* -webkit-box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
     -moz-box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
-    box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3);
+    box-shadow: 10px 0px 20px 9px rgba(255,61,174,0.3); */
 }
 
 .Forms h1{
@@ -144,8 +144,9 @@ box-shadow: 0px 0px 30px 20px rgba(255,61,174,0.2);
     box-shadow: -10px 0px 20px 9px rgba(120,221,230,0.3);}
 
 body{
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8da1e6, #80a7e9, #73adeb, #63b0ed, #50b4ed, #39b7ed, #12baeb);
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8da1e6, #80a7e9, #73adeb, #63b0ed, #50b4ed, #39b7ed, #12baeb); */
     background-attachment: fixed;
+    background-image: linear-gradient(to right bottom, #270e93, #4350b6, #6e86d2, #a7bce6, #ecf1f8);
 }
 
 @media only screen and (max-width: 600px) {
@@ -274,8 +275,8 @@ html {
         /* left: 40vw; */
         width: 100vw;
         left:0vw;
-        background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361);
-        
+        /* background-image: linear-gradient(to right top, #f9caf2, #f9b2e6, #fa98d8, #fb7cc6, #fc5cb1, #ff529f, #ff498c, #ff4279, #ff5d6c, #ff7663, #ff8d5f, #ffa361); */
+        background-image: linear-gradient(to right bottom, #270e93, #4350b6, #6e86d2, #a7bce6, #ecf1f8);
   
     }
     .loginbox.active{
