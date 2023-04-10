@@ -53,17 +53,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
-.loginform .message {
-  padding: 40px;
-  padding-left: 10px;
-  margin: 15px 0 0;
-  color: #1b0c50;
-  font-size: 15px;
-  margin-left: 100px;
-  margin-right: 50px;
-}
-
-
 
 
 body{
@@ -79,15 +68,13 @@ h1{
     
     text-align: center;
     font-size: 4vw;
-    /* font-family:'sacramento','cursive'; */
-    font: bold 24px/29px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 label{
-  font-size: 1.5vw;
+  font-size: 2vw;
   /* font-style: italic; */
   font-family:Arial, Helvetica, sans-serif;
   margin-left: 1vw;
-  margin-top: 1vw;
   translate: 0vw 0vh;
 }
 /* input{
@@ -95,15 +82,15 @@ label{
  #login {
   translate: 0vw 3vh;
     position: relative;
-    /* align-items: center; */
-    margin-left: 10vw;
-    width: 8vw;
-    height: 4vh;
-    /* border-radius: 30px; */
+    align-items: center;
+    margin-left: 1.7vw;
+    width: 25vw;
+    height: 7vh;
+    border-radius: 30px;
     color: white;
-    background-color: rgb(18, 18, 66);
+    background-color: rgb(18 18 66);
     /* font-size: 22px; */
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
  #signin a{
   text-decoration: none;
@@ -116,14 +103,14 @@ width: 4vw;
 }
 
 .signinlink{
-  translate: 7vw 5vh;
+  translate: 1.7vw 5vh;
   position: relative;
   align-items: center;
-  width: 16vw;
-  height: 4vh;
+  width: 25vw;
+  height: 7vh;
   border-radius: 30px;
   color: white;
-  background-color: rgba(18, 18, 66);
+  background-color: rgb(18, 18, 66);
 }
 /* editted */
 html {
@@ -211,7 +198,7 @@ a {
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      /* background-color: #e59e9e; */
+      background-color: #e59e9e;
       /* width: 100%; */
       width: 50%;
       border-radius: 10px;
@@ -275,20 +262,14 @@ a {
     position: relative;
 }
 .place-holder{
-  /* border-radius: 30px; */
+  border-radius: 30px;
   height: 5vh;
   width: 25vw;
   position: relative;
   translate: 1.5vw ;
-  border: none;
-  border-bottom: 1px solid white;
-  background: none;
-  color: white;
+  color: #19ec22;
   font-size: 1.5vw;
   margin: 10px 1px 10px 1px;
-  padding-left: 1rem;
-  outline: none;
-  
 }
 
 

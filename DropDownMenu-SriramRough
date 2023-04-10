@@ -1,0 +1,38 @@
+HTML:
+
+<div class="dropdown">
+            <a href="#" class="nav-logo">Here-<span class="logo-text">I-Am</span></a>
+            <div class="nav-menu1">
+                <a href="home" class="nav-link">Home</a>
+                <a href="signup.html" class="nav-link">Signup</a>
+                <a href="About-us" class="nav-link">About-us</a>
+                <a href="Help" class="nav-link">Help</a>   
+            </div>
+        </div>
+
+CSS:
+
+.dropdown:hover .navmenu{
+    display: block;
+  }
+    
+  .nav-menu1{
+    display: none;
+    position: absolute;
+    background-color:  linear-gradient(to right top, #d16ba5, #d27eaf, #d291b9, #d2a2c2, #d3b3c9, #cbb0c4, #c3aebf, #bcabba, #a995aa, #96809b, #816b8d, #6c5880);
+    min-width: 150px;
+  }
+  
+  .nav-menu1 a{
+    color: black;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  .nav-menu1 a:hover {
+    background-color: white;
+  }
+  
+  .dropdown:hover .nav-menu1 {
+    display: block;
+  }
