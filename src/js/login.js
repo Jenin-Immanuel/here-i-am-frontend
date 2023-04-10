@@ -73,11 +73,10 @@ if (signUpForm !== null) {
 
     if (data.data !== null) {
       console.log(data.data);
+      window.location = "/";
     } else {
       alert(data.errors[0].message);
     }
-
-    // window.location = "/";
   });
 }
 
@@ -111,10 +110,12 @@ if (loginForm !== null) {
       `,
       { input: input }
     );
-    if (data != null) {
+    if (data.data !== null) {
       document.cookie = `accessToken=${data.data.loginUser}`;
       alert("Logged in successfully");
       window.location = "/home.html";
+    } else if (data.errors !== null) {
+      alert("Password or email is incorrect");
     }
   });
 }
