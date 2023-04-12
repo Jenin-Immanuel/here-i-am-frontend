@@ -113,7 +113,7 @@ if (loginForm !== null) {
     if (data.data !== null) {
       document.cookie = `accessToken=${data.data.loginUser}`;
       alert("Logged in successfully");
-      window.location = "/home.html";
+      window.location = "/landingN.html";
     } else if (data.errors !== null) {
       alert("Password or email is incorrect");
     }

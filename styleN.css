@@ -1,209 +1,202 @@
-    html{
-        height:95%;
-    }
-    body{
-        display: flex; 
-        flex-direction: column;
-        height: 100%;
-        /* background-image: url("bg1.png");
+html {
+  height: 95%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* background-image: url("bg1.png");
         background-size: cover;
         background-position: center; */
-        background-image: linear-gradient(to right, #7474BF,#348AC7);
-        /* border: 2px dotted black; */
-    }
+  background-image: linear-gradient(to right, #7474bf, #348ac7);
+  /* border: 2px dotted black; */
+}
 
-    .navbar{
-        display: flex;
-        padding: 1rem;
-        justify-content: left;
-        align-items: center;
-        background-color: rgba(128,128,128,40%);
-        border-radius: 10px;
-        border: 2px solid black;
-        /* max-width:96vw; */
-    } 
+.navbar {
+  display: flex;
+  padding: 1rem;
+  justify-content: left;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 40%);
+  border-radius: 10px;
+  border: 2px solid black;
+  /* max-width:96vw; */
+}
 
-    .navlogo{
-        margin-left: 1rem; 
-    }
-    
+.navlogo {
+  margin-left: 1rem;
+}
 
+.here-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
 
+.navmenu {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: right;
+  /* border: 2px solid black; */
+  gap: 2rem;
+  margin-right: 1rem;
+}
 
-    .here-logo{
-        color:white;
-        text-decoration: none;
-        font-size: 3rem;
-    }
+.navmenu-item {
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+  padding: 12px;
+}
+.navmenu-item:hover {
+  text-decoration: none;
+  color: dodgerblue;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 40%);
+}
+.welcometxt {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* border:2px solid black; */
+}
 
+.welcometxt img {
+  opacity: 70%;
+  border: 2px solid black;
+  height: 40rem;
+}
 
-    .navmenu{
-        list-style: none;
-        display: flex;
-        flex-grow: 1;
-        justify-content: right;
-        /* border: 2px solid black; */
-        gap: 2rem;
-        margin-right: 1rem;
-    }
+.welcometxt h1 {
+  font-size: 5rem;
+  size: 20rem;
+  margin: 0px 0px;
+  margin-top: 2vh;
+  color: white;
+  /* border:2px solid black; */
+}
 
+.welcometxt h3 {
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px;
+  /* border: 2px solid black; */
+}
 
-    .navmenu-item{
-        text-decoration: none;
-        font-size: larger;
-        color: white;
-        padding: 12px;
-        
-    }
-    .navmenu-item:hover{
-        text-decoration: none;
-        color:dodgerblue;
-        padding: 12px;
-        border-radius: 20px;
-        background-color: rgba(255,255,255,40%);
-    }
-    .welcometxt{
-        flex-grow:1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-        /* border:2px solid black; */
-    }
+.toggle-btn {
+  display: none;
+  cursor: pointer;
+}
 
-    .welcometxt img{
-        opacity: 70%;
-        border: 2px solid black;
-        height: 40rem;
-    }
+.loginbody {
+  display: flex;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
 
-    .welcometxt h1{
-        font-size: 5rem;
-        size:20rem;
-        margin: 0px 0px;   
-        margin-top: 2vh; 
-        color:white;
-        /* border:2px solid black; */
-    }
-
-    .welcometxt h3{
-        color: white;
-        font-size: 2rem;
-        margin: 0px 0px;
-        /* border: 2px solid black; */
-    }
-
-    .toggle-btn{
-        display: none;
-        cursor:pointer;
-    }
-
-    .loginbody{
-        display: flex;
-        padding-top:4rem;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .loginIMG img{
-        height: 60vh;
-        width: 25vw;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-        border-left: 2px solid black;
-        /* border-style: solid;
+.loginIMG img {
+  height: 60vh;
+  width: 25vw;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  /* border-style: solid;
         border-color: black; */
-        }
+}
 
-    .loginform{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        translate:0vw -0.19vh;
-        background-color: rgba(128,128,128,40%);
-        height: 60vh;
-        width: 25vw;
-        border-bottom-right-radius: 20px;
-        border-top-right-radius: 20px;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-        border-right: 2px solid black;
-    }
+.loginform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  translate: 0vw -0.19vh;
+  background-color: rgba(128, 128, 128, 40%);
+  height: 60vh;
+  width: 25vw;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
 
-    .loginform forms{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:2rem;
-    }
+.loginform form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 
-    .loginform forms #username,#password{
-        padding:10px;
-        height: 6vh;
-        width: 18vw;
-        border-radius:10px;
-        border: 1px double black;   
-    }
+.loginform form #email,
+#password {
+  padding: 10px;
+  height: 6vh;
+  width: 18vw;
+  border-radius: 10px;
+  border: 1px double black;
+}
 
-    .loginform forms #login_button{
-        padding:10px;
-        height: 4vh;
-        width: 12vw;
-        border-radius:10px;
-        border: 1px double black;   
-    }
+.loginform form #login_button {
+  padding: 10px;
+  height: 4vh;
+  width: 12vw;
+  border-radius: 10px;
+  border: 1px double black;
+}
 
+.chatbox_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 98%;
+  gap: 3rem;
+}
 
-    .chatbox_body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 98%;
-        gap:3rem;
-    }
+.chatbox {
+  background-color: rgba(128, 128, 128, 40%);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+}
 
-    .chatbox{
-        background-color:rgba(128,128,128,40%);
-        padding:3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid black;
-        border-radius: 20px;
-    }
-    
-    .question_input_box forms{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.question_input_box forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    .question_header h1{
-        margin-top:0px;
-        margin-bottom: 0px;
-        color:white;
-    }
-    
-    #user_question{
-        padding:10px;
-        height: 8vh;
-        width: 40vw;
-        border: 2px double black;
-    }
+.question_header h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
 
-    #user_question_submit{
-        font-size: larger;
-    }
+#user_question {
+  padding: 10px;
+  height: 8vh;
+  width: 40vw;
+  border: 2px double black;
+}
 
+#user_question_submit {
+  font-size: larger;
+}
 
-    /* .dropdownmenu{
+/* .dropdownmenu{
         display: none;
         position:absolute;
         right:2rem;
@@ -222,46 +215,45 @@
         justify-content:center;
     } */
 
-    @media(max-width:1030px){
-        .welcometxt img{
-            height:30rem;
-        }
-    }
+@media (max-width: 1030px) {
+  .welcometxt img {
+    height: 30rem;
+  }
+}
 
-    @media(max-width: 770px){
+@media (max-width: 770px) {
+  .navbar {
+    justify-content: center;
+  }
 
-        .navbar{
-            justify-content: center;
-        }
+  .navbar .blank {
+    flex-grow: 1;
+    /* border:2px solid black; */
+  }
 
-        .navbar .blank{
-            flex-grow:1;
-            /* border:2px solid black; */
-        }
+  .toggle-btn {
+    display: block;
+    filter: invert(1);
+    /* border:2px solid black; */
+  }
 
-        .toggle-btn{
-            display: block;
-            filter:invert(1);
-            /* border:2px solid black; */
-        }
+  .welcometxt img {
+    display: none;
+  }
 
-        .welcometxt img{
-            display: none;
-        }
-
-        .navmenu{
-            display: none;
-        }
-        .loginIMG{
-            display: none;  
-        }
-        .loginform{
-            border-radius: 10%;
-            border: 2px solid black;
-            width: 40vw;
-            /* padding: 2px; */
-        }
-        .loginform forms{
-            padding:6px;
-        }
-    }
+  .navmenu {
+    display: none;
+  }
+  .loginIMG {
+    display: none;
+  }
+  .loginform {
+    border-radius: 10%;
+    border: 2px solid black;
+    width: 40vw;
+    /* padding: 2px; */
+  }
+  .loginform form {
+    padding: 6px;
+  }
+}
