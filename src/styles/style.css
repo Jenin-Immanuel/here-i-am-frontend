@@ -59,7 +59,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   margin: 15px 0 0;
   color: #1b0c50;
   font-size: 15px;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 50px;
 }
 
@@ -96,10 +96,10 @@ label{
   translate: 0vw 3vh;
     position: relative;
     /* align-items: center; */
-    margin-left: 10vw;
-    width: 8vw;
-    height: 4vh;
-    /* border-radius: 30px; */
+    margin-left: 5vw;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 30px;
     color: white;
     background-color: rgb(18, 18, 66);
     /* font-size: 22px; */
@@ -291,7 +291,11 @@ a {
   
 }
 
-
+@media only screen and (max-width: 768px) {
+  .loginform{
+    border-radius:50px ;
+  }
+}
 
 
 
