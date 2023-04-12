@@ -12,6 +12,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script defer src="/src/js/main.js"></script>
+    <script src="/src/js/login.js" type="module" defer></script>
+
   </head>
   <body>
     <div class="navbar">
@@ -36,18 +39,20 @@
         <img src="loginimg.png" />
       </div>
       <div class="loginform">
-        <forms>
+        <form data-login-form>
           <input
-            type="text"
-            name="Username"
-            id="username"
-            placeholder="Username"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
           />
           <input
-            type="text"
-            name="Password"
+            type="password"
+            name="password"
             id="password"
             placeholder="Password"
+            required
           />
           <a href="landingN.html"
             ><input type="submit" value="Login!" id="login_button"
