@@ -1,61 +1,77 @@
-.body{
-    background: blue;
-}
-.ur{
-    color: rgb(6, 6, 202);
-}
-.nav-items{
-    list-style: none;
-
-}
-.whole{
-    display: flex;
+html {
+  margin: 0;
+  padding: 0;
 }
 
-.segmentimage{
- height: 100vh;
- width: 50vw;
- /* translate: 50vw; */
+body {
+  margin: 0;
+  padding: 0;
 }
-.segment1{
-    width: 50vw;
-    height: 100vh;
-    /* background-image: linear-gradient(to right, #0c0c0b, #0d0d0b, #0e0d0a, #100e0a, #110e0a); */
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 4, 11);
+
+.body {
+  background: blue;
 }
- 
+.ur {
+  color: rgb(6, 6, 202);
+}
+.nav-items {
+  list-style: none;
+}
+.whole {
+  display: flex;
+}
+
+.segmentimage {
+  height: 100vh;
+  width: 50vw;
+  /* translate: 50vw; */
+}
+.segment1 {
+  width: 50vw;
+  height: 100vh;
+  /* background-image: linear-gradient(to right, #0c0c0b, #0d0d0b, #0e0d0a, #100e0a, #110e0a); */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 4, 11);
+}
+
 div {
-    display: block;
+  display: block;
 }
-.navbar{
-    background-image: linear-gradient(to right, #0c0c0b, #0d0d0b, #0e0d0a, #100e0a, #110e0a);
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    #0c0c0b,
+    #0d0d0b,
+    #0e0d0a,
+    #100e0a,
+    #110e0a
+  );
 }
-.puc{
-    font-family: 'Great Vibes', cursive;
-    color: white;
-    font-size: 40px;
-    padding: 2px;
-    left: 1vw;
-    position: relative;
+.puc {
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-size: 40px;
+  padding: 2px;
+  left: 1vw;
+  position: relative;
 }
-.landingtext{
-    color: white;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 50px;
-    left: 1vw;
-    position: relative;
+.landingtext {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 50px;
+  left: 1vw;
+  position: relative;
 }
-.getstarted{
-    width: 30vw;
-    height: 10vh;
-    translate: 7vw;
-    border-radius: 45px;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 30px;
-    color: rgb(6, 6, 202);
+.getstarted {
+  width: 30vw;
+  height: 10vh;
+  translate: 7vw;
+  border-radius: 45px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30px;
+  color: rgb(6, 6, 202);
 }
-.highlight{
-color: rgb(6, 6, 202);
+.highlight {
+  color: rgb(6, 6, 202);
 }
