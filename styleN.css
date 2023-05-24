@@ -257,3 +257,54 @@ body {
     padding: 6px;
   }
 }
+
+.segment{
+  height: 80vh;
+  width: 40vw;
+}
+#s1{
+
+}
+#s2{
+  background-color: azure;
+}
+.sin-img{
+  height: 80vh;
+  width: 40vw;}
+.frame{
+  display: flex;
+  flex-direction: row;
+  translate: 10vw ;
+  
+}
+.input-text{
+  font-family: "Barlow Condensed", sans-serif;
+  width: 25vw;
+  height: 5vh;
+  translate: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.label-text{
+  position: relative;
+  font-family: "Barlow Condensed", sans-serif;
+  /* translate: 2vw; */
+  margin-left: 2vw;
+}
+.s2-form{
+  translate:5vw 5vh;
+  /* background-color: beige; */
+  width: 30vw;
+  height: 70vh;
+  
+}
+.submitbutton{
+  width: 20vw;
+  height: 5vh;
+  translate: 5vw 1vh;
+  border-radius: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.body-class{
+  background-color: black;
+}
