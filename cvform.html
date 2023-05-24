@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./src/js/cvscript.js" defer></script>
+    <title>Document</title>
+    <style>
+      .cv-form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="cv-form" data-cv-form>
+      <label for="fname">First name</label><br />
+      <input type="text" name="fname" /><br />
+      <label for="lname">Last name</label><br />
+      <input type="text" name="lname" /><br />
+      <label for="mobile_no">Mobile Number</label><br />
+      <input type="text" name="mobile_no" /><br />
+      <label for="mail_id">Mail Id</label><br />
+      <input type="text" name="mail_id" /><br />
+      <label for="website_name">Website name</label><br />
+      <input type="text" name="website_name" /><br />
+      <label for="home_addr">Home address</label><br />
+      <input type="text" name="home_addr" /><br />
+      <label for="oneliner"> Give a one liner about yourself: </label><br />
+      <textarea name="oneliner" rows="5" cols="20"></textarea><br />
+      <label for="linkedin_name">LinkedIn Username: </label><br />
+      <input type="text" name="linkedin_name" /><br />
+      <label for="instagram_name">Instagram Username: </label><br />
+      <input type="text" name="instagram_name" /><br />
+      <label for="github_name">Github Username: </label><br />
+      <input type="text" name="github_name" /><br />
+      <!-- <div data-form-experiences-wrapper>
+        <input
+          type="number"
+          name="no_of_experiences"
+          data-form-experiences-no
+        /><br />
+      </div> -->
+      <div>Details of Company 1</div>
+      <br /><br />
+      <label for="company_name_1">Company name: </label><br />
+      <input type="text" name="company_name_1" /><br />
+      <label for="company_time_1">Service time: </label><br />
+      <input type="number" name="company_time_1" /><br />
+      <label for="company_profession_1">Profession title: </label><br />
+      <input type="text" name="company_profession_1" /><br />
+      <label for="company_description_1">About your experiecne</label><br />
+      <textarea
+        name="company_description_1"
+        id="company_description_1"
+        cols="30"
+        rows="10"
+      ></textarea
+      ><br />
+      <div>Details of Company 2</div>
+      <br /><br />
+      <label for="company_name_2">Company name: </label><br />
+      <input type="text" name="company_name_2" /><br />
+      <label for="company_time_2">Service time: </label>
+      <input type="number" name="company_time_2" />
+      <label for="company_profession_2">Profession title: </label>
+      <input type="text" name="company_profession_2" />
+      <label for="company_description_2">About your experiecne</label>
+      <textarea
+        name="company_description_2"
+        id="company_description_2"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div>Details of Company 3</div>
+      <br /><br />
+      <label for="company_name_3">Company name: </label><br />
+      <input type="text" name="company_name_3" /><br />
+      <label for="company_time_3">Service time: </label><br />
+      <input type="number" name="company_time_3" /><br />
+      <label for="company_profession_3">Profession title: </label><br />
+      <input type="text" name="company_profession_3" />
+      <label for="company_description_3">About your experiecne</label>
+      <textarea
+        name="company_description_3"
+        id="company_description_3"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div>Skill details</div>
+      <label for="skill_1">Skill 1:</label>
+      <input type="text" name="skill_1" />
+      <label for="skill_rating_1">Rate of skill 1 (out of 100): </label>
+      <input type="number" name="skill_rating_1" />
+      <label for="skill_2">Skill 2:</label>
+      <input type="text" name="skill_2" />
+      <label for="skill_rating_2">Rate of skill 2 (out of 100): </label>
+      <input type="number" name="skill_rating_2" />
+      <label for="skill_3">Skill 3:</label>
+      <input type="text" name="skill_3" />
+      <label for="skill_rating_3">Rate of skill 3 (out of 100): </label>
+      <input type="number" name="skill_rating_3" />
+      <label for="skill_4">Skill 4:</label>
+      <input type="text" name="skill_4" />
+      <label for="skill_rating_4">Rate of skill 4 (out of 100): </label>
+      <input type="number" name="skill_rating_4" />
+      <label for="skill_5">Skill 5:</label>
+      <input type="text" name="skill_5" />
+      <label for="skill_rating_5">Rate of skill 5 (out of 100): </label>
+      <input type="number" name="skill_rating_5" />
+      <label for="skill_6">Skill 6:</label>
+      <input type="text" name="skill_6" />
+      <label for="skill_rating_6">Rate of skill 6 (out of 100): </label>
+      <input type="number" name="skill_rating_6" />
+
+      <label for="hobbies">Write about your hobbies</label>
+      <textarea name="hobbies" id="hobbies" cols="30" rows="10"></textarea>
+
+      <div class="button-container">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
